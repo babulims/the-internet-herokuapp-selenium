@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 public class BaseTest {
     protected WebDriver webdriver;
-    private final String URL = "https://the-internet.herokuapp.com/";
+    protected final String URL = "https://the-internet.herokuapp.com/";
     private final String DRIVER_PATH="C:/Users/babulisethi/Practice/Softwares/chromedriver.exe";
 
     protected void testContextSetup() {
