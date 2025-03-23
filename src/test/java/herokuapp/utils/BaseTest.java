@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 public class BaseTest {
     protected WebDriver webdriver;
     protected final String URL = "https://the-internet.herokuapp.com/";
-    private final String DRIVER_PATH="C:/Users/babulisethi/Practice/Softwares/chromedriver.exe";
+    private final String DRIVER_PATH = "src/test/resources/chromedriver/chromedriver.exe";
 
     protected void testContextSetup() {
         System.setProperty("webdriver.chrome.driver", DRIVER_PATH);
